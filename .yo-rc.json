@@ -1,0 +1,12 @@
+{
+  "generator-ng-fullstack": {
+    "username": "lotsabackscatter",
+    "appName": "agileboard",
+    "stack": "fullstack",
+    "server": "node",
+    "client": "ng2",
+    "transpilerServer": "typescript",
+    "secure": false,
+    "differentStaticServer": false
+  }
+}
