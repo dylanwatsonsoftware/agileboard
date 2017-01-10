@@ -1,4 +1,8 @@
 # agileboard (Angular 2 Full Stack project) [![MIT license](http://img.shields.io/badge/license-MIT-lightgrey.svg)](http://opensource.org/licenses/MIT)
+
+[![CI Status]
+   (http://img.shields.io/travis/lotsabackscatter/agileboard.svg?style=flat)]
+   (https://travis-ci.org/lotsabackscatter/agileboard)
 an agile taskboard for everyone!
 
 The front-end of this project was generated with [Angular CLI](https://github.com/angular/angular-cli).
