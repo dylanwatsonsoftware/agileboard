@@ -3,19 +3,27 @@
 # compiled output
 /dist
 /tmp
+/out-tsc
 
 # dependencies
 /node_modules
-/bower_components
 
 # IDEs and editors
 /.idea
-/.vscode
 .project
 .classpath
 .c9/
 *.launch
 .settings/
+*.sublime-workspace
+
+# IDE - VSCode
+/.vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 
 # misc
 /.sass-cache

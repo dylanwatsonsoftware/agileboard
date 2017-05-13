@@ -1,14 +1,15 @@
 import { Angular2FullStackPage } from './app.po';
 
-describe('angular2-full-stack App', function() {
+describe('angular2-full-stack App', () => {
   let page: Angular2FullStackPage;
 
   beforeEach(() => {
     page = new Angular2FullStackPage();
   });
 
-  it('should display message saying app works', () => {
+  it('should display navbar with Home and About', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    expect(page.getNavbarHome()).toEqual('Home');
+    expect(page.getNavbarAbout()).toEqual('About');
   });
 });
